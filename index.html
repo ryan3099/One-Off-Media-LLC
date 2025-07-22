@@ -17,14 +17,19 @@
       color: white;
       padding: 60px 20px;
       text-align: center;
+      background-image: url('https://borderlessaccess.com/blog/wp-content/uploads/2024/02/blog-banner-new.webp');
+      background-size: cover;
+      background-position: center;
     }
     header h1 {
       font-size: 3rem;
       margin: 0 0 10px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
     header p {
       font-size: 1.2rem;
       margin: 0 0 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
     header a {
       padding: 12px 25px;
@@ -77,6 +82,22 @@
       text-decoration: none;
       margin: 0 10px;
     }
+    .service-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .contact-imgs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .contact-imgs img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
@@ -112,6 +133,7 @@
         <p>Expert advice and support for scaling your telecom infrastructure.</p>
       </div>
     </div>
+    <img src="https://www.martechcube.com/wp-content/uploads/2021/11/Growth.jpg" alt="Service Image" class="service-img">
   </section>
 
   <section>
@@ -131,7 +153,12 @@
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:contact@one-off.shop">contact@one-off.shop</a></p>
+    <p>Phone: +1 448-210-8084</p>
     <p>Address: Golden Lantern Ste B, Dana Point, CA 92629-3261, United States</p>
+    <div class="contact-imgs">
+      <img src="https://api.ndla.no/image-api/raw/id/43966" alt="Contact Image 1">
+      <img src="https://i.pinimg.com/originals/3e/5f/37/3e5f37c8b877d85b33d6e17a769adc1a.png" alt="Contact Image 2">
+    </div>
   </section>
 
   <footer>
